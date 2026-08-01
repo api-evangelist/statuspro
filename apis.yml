@@ -1,7 +1,26 @@
 aid: statuspro
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/statuspro.png
 name: StatusPRO
-description: 'StatusPRO is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'StatusPRO is a sports technology and gaming company founded by former
+  professional athletes, building extended reality (XR) products that pair competitive
+  training tools for elite athletes with immersive gaming experiences for consumers.
+  Its flagship product, NFL PRO ERA, is an officially NFL- and NFLPA-licensed virtual
+  reality football game for Meta Quest headsets, and its StatusPRO Visualizer powers
+  immersive broadcast perspectives used by ESPN on NFL Live. The company operates a
+  live-services consumer game rather than a developer platform: it publishes no public
+  API, developer portal, or API documentation. This profile is maintained in the API
+  Evangelist network as a company record; it carries no API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/statuspro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Sports
+- Gaming
+- Virtual Reality
+- Extended Reality
+- NFL
+- Sports Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.status.pro
+- type: About
+  url: https://www.status.pro/about
+- type: Blog
+  url: https://www.status.pro/blog
+- type: Support
+  url: http://support.status.pro/
+- type: TermsOfService
+  url: https://www.status.pro/pages/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.status.pro/pages/privacy-policy
+- type: Pricing
+  url: https://www.meta.com/experiences/nfl-pro-era/4193975210678121/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
